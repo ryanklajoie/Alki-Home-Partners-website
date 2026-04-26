@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alki Home Partners — Home Lifecycle Management · West Seattle</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <nav class="nav">
+    <a href="index.html" class="nav-logo">
+      <span class="logo-mark">AHP</span>
+      <span class="logo-text">Alki Home Partners<br><em>Home Lifecycle Management</em></span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="services.html">Services</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html" class="nav-cta">Get Started</a></li>
+    </ul>
+    <button class="nav-hamburger" onclick="toggleMenu()">&#9776;</button>
+  </nav>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="services.html">Services</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Get Started</a>
+  </div>
+
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <p class="hero-eyebrow">West Seattle · Est. 2026</p>
+      <h1 class="hero-headline">A house follows a lifecycle.<br><em>So does the person in it.</em></h1>
+      <p class="hero-sub">Alki Home Partners manages the condition and performance of your home the way a good CFO manages a balance sheet — proactively, with a plan, and with someone accountable for outcomes at every stage of the journey.</p>
+      <div class="hero-actions">
+        <a href="services.html" class="btn-primary">View Our Services</a>
+        <a href="contact.html" class="btn-ghost">Start a Conversation</a>
+      </div>
+    </div>
+    <div class="hero-stat-bar">
+      <div class="stat">
+        <span class="stat-num">$850k</span>
+        <span class="stat-label">Median West Seattle Home Value</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat">
+        <span class="stat-num">48%</span>
+        <span class="stat-label">Of older homeowners want a managed maintenance service¹</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat">
+        <span class="stat-num">1</span>
+        <span class="stat-label">Accountable partner for your entire home</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="failures">
+    <div class="container">
+      <div class="section-header">
+        <p class="eyebrow">The Problem</p>
+        <h2>Your home is your largest asset. Nobody is managing it.</h2>
+      </div>
+      <div class="failures-grid">
+        <div class="failure-card">
+          <span class="failure-num">01</span>
+          <h3>Information Failure</h3>
+          <p>Owners lack technical understanding of their home's condition and degradation timelines. Without that picture, every decision is reactive — and reactive decisions cost more.</p>
+        </div>
+        <div class="failure-card">
+          <span class="failure-num">02</span>
+          <h3>Timing Failure</h3>
+          <p>Maintenance is deferred until it becomes urgent. Deferred maintenance compounds quietly — then arrives all at once as a capital emergency that could have been a planned investment.</p>
+        </div>
+        <div class="failure-card">
+          <span class="failure-num">03</span>
+          <h3>Execution Failure</h3>
+          <p>Even when problems are identified, owners struggle to coordinate reliable contractor work. Fragmented vendors, inconsistent quality, no institutional memory of the property.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="value-prop">
+    <div class="container value-prop-inner">
+      <div class="value-prop-text">
+        <p class="eyebrow">Our Approach</p>
+        <h2>We sit above the contractor network and improve how decisions get made.</h2>
+        <p>We don't replace your contractors. We don't eliminate the network you already rely on. We provide what the network has never had: a single operator who holds the full picture of your home's condition, plans capital spend before it becomes emergency spend, and coordinates execution across every trade.</p>
+        <p>After three years, you don't just use the service. You depend on the continuity of it. That accumulated knowledge — of your home's history, its vulnerabilities, its trajectory — is something no contractor or directory can replicate.</p>
+        <a href="services.html" class="btn-primary">See How It Works</a>
+      </div>
+      <div class="value-prop-cards">
+        <div class="vp-card">
+          <div class="vp-icon">◈</div>
+          <h4>Condition Intelligence</h4>
+          <p>Annual inspection with a written professional condition report. Know what your home needs — before it costs you.</p>
+        </div>
+        <div class="vp-card">
+          <div class="vp-icon">◈</div>
+          <h4>Coordinated Execution</h4>
+          <p>One accountable partner across all trades. We source, vet, and manage every contractor on your behalf.</p>
+        </div>
+        <div class="vp-card">
+          <div class="vp-icon">◈</div>
+          <h4>Lifecycle Planning</h4>
+          <p>A forward-looking roadmap aligned to your home's needs and your life stage. Convert emergencies into planned investments.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="failures" style="background: var(--navy);">
+    <div class="container">
+      <div class="section-header">
+        <p class="eyebrow">Who We Serve</p>
+        <h2>One relationship. Every stage of homeownership.</h2>
+      </div>
+      <div class="failures-grid">
+        <div class="failure-card">
+          <span class="failure-num">—</span>
+          <h3>The Busy Professional</h3>
+          <p>You care about your home and feel mild but persistent anxiety about what you might be missing. You want someone who thinks ahead so you don't have to. You respond to stewardship, not maintenance scheduling.</p>
+        </div>
+        <div class="failure-card">
+          <span class="failure-num">—</span>
+          <h3>The Thoughtful Planner</h3>
+          <p>You're approaching a transition — a refinance, a strategic sale, an empty nest. You understand that a well-documented, well-maintained home commands a premium. You want a credible condition history.</p>
+        </div>
+        <div class="failure-card">
+          <span class="failure-num">—</span>
+          <h3>The Aging Homeowner</h3>
+          <p>You want to stay in your home. You're not interested in being managed — you want a capable, respectful partner who explains things clearly and helps you stay safely in the place you've built your life.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-band">
+    <div class="container">
+      <h2>Your home deserves an operator. Let's talk.</h2>
+      <a href="contact.html" class="btn-light">Start a Conversation →</a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="logo-mark">AHP</span>
+        <span>Alki Home Partners LLC</span>
+      </div>
+      <div class="footer-links">
+        <a href="services.html">Services</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <p class="footer-copy">© 2026 Alki Home Partners LLC. All rights reserved. · West Seattle, WA · alkihp.com</p>
+      <p class="footer-copy" style="font-size:0.65rem;margin-top:4px;opacity:0.6;">¹ Fannie Mae Older Homeowners Survey, 2024</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
